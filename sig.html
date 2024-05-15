@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Significado</title>
+</head>
+<style>
+    .a1{
+        font-size: 2.5em;
+        font-family: fantasy;
+    }
+    .a2{
+        font-size: 22px;
+        font-family: sans-serif;
+        text-align: justify; 
+    }
+    body {
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+    Button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+<body>
+<button onclick="trocarTema()">Trocar Tema</button>
+    <script>
+        alert("Significado da musica de Lulu Santos")
+        function trocarTema() {
+    var body = document.body;
+    var botao = document.querySelector('button');
+
+    if (body.style.backgroundColor === 'black') {
+      body.style.backgroundColor = 'white';
+      body.style.color = 'black';
+      botao.textContent = 'Tema Escuro';
+    } else {
+      body.style.backgroundColor = 'black';
+      body.style.color = 'white';
+      botao.textContent = 'Tema Claro';
+    }
+  }
+    </script>
+    <center>
+    <p class="a1">A Impermanência da Vida na Canção de Lulu Santos</p>
+    <br>
+    <br>
+<p class="a2">&emsp;A música 'Como Uma Onda (Zen-Surfismo)', interpretada pelo icônico Lulu Santos, é uma verdadeira reflexão sobre a impermanência e a constante mudança da vida. Com uma melodia suave que remete à leveza das ondas do mar, a canção se tornou um clássico da música popular brasileira, marcando a década de 80 e permanecendo atemporal em sua mensagem.</p>
+
+<p class="a2">&emsp;A letra da música utiliza a metáfora das ondas do mar para ilustrar como a vida está em constante movimento e transformação. 'Nada do que foi será de novo do jeito que já foi um dia' é uma frase que ressoa a ideia de que o passado não pode ser recriado e que o presente é sempre um novo começo. Essa filosofia está alinhada com o conceito de 'Zen', que enfatiza a importância de viver o momento presente e aceitar a natureza transitória de todas as coisas.</p>
+
+<p class="a2">&emsp;Lulu Santos, conhecido por suas letras poéticas e melodias contagiantes, convida o ouvinte a não resistir às mudanças ('Não adianta fugir') e a reconhecer a beleza e a plenitude da vida que existe tanto fora quanto dentro de nós ('Há tanta vida lá fora / Aqui dentro, sempre'). A repetição do verso 'Como uma onda no mar' serve como um mantra que nos lembra da constante e bela renovação que a vida oferece. A música é um convite à reflexão e à aceitação, incentivando uma postura de abertura e apreciação diante da imprevisibilidade da existência.</p>
+    </center>
+    <a href="index.html"><img src="download.png"></a>
+</body>
+</html>
